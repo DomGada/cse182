@@ -1,0 +1,1 @@
+SELECT teamID, teamName, SUM(totalWins,-computedWins) AS winDiff, totalLosses-computedLosses AS lossDiff
